@@ -1,0 +1,168 @@
+FRAMES-----------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frames</title>
+</head>
+
+<!-- create a webpage to create a page with menu using html frames -->
+ <frameset cols="300,*" frameborder="1" border="5">
+    <frame src="menu.html" name="menu"></frame>
+    <frame src="mainframe.html" name="mainframe"></frame>
+ </frameset>
+
+</html>
+
+MENU-----------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu</title>
+</head>
+<body>
+    <center>
+    <h1>MENU</h1>
+    
+    <table>
+        <tr>
+            <td><a href="Resumedetails.html" target="mainframe">Page1</a></td>
+        </tr>
+        <tr>
+            <td><a href="eduquali.html" target="mainframe">Page2</a></td>
+        </tr>
+        <tr>
+            <td><a href="declare.html" target="mainframe">Page3</a></td>
+        </tr>
+    </table>
+    </center>
+</body>
+</html>
+
+MAINFRAME-------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mainframe</title>
+</head>
+<body>
+    <h3>WELCOME!!</h3>
+</body>
+</html>
+
+RESUME-------------
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+</head>
+
+<body>
+    <center>
+    <h2><U>RESUME</U></h2>
+    <h3><u><b>Basic Details</b></u></h3>
+    <table border="2" width="60%" height="90">
+        <tr>
+            <th> Name</th>
+            <td>Nazrin Rafi</td>
+        </tr>
+        <tr>
+            <th>age:</th>
+            <td>51</td>
+        </tr>
+        <tr>
+            <th>Address:</th>
+            <td>adress illa nazrikk</td>
+        </tr>
+        <tr>
+            <th>Contact:</th>
+            <td>6666666666</td>
+        </tr>
+    </table>
+</center>
+</body>
+
+</html>
+
+EDUCATIONAL QUALIFICATION-------
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resume2</title>
+</head>
+<body>
+    <center>
+    <h2><U>RESUME</U></h2>
+    <h3><b>Education Qualification</b></h3>
+    <table border="2" width="60%" height="90%">
+        <tr>
+            <th>Course</th>
+            <th>University/Board</th>
+            <th>Year of Passing</th>
+            <th>Percentage</th>
+        </tr>
+        <tr>
+            <td>SSLC</td>
+            <td>State Board</td>
+            <td>2019</td>
+            <td>1000%</td>
+        </tr>
+        <tr>
+            <td>PLUSTWO</td>
+            <td>CBSE Board</td>
+            <td>2021</td>
+            <td>1000%</td>
+        </tr>
+        <tr>
+            <td>DEGREE</td>
+            <td>MG University</td>
+            <td>2024</td>
+            <td>1000%</td>
+        </tr>
+    </table>
+</center>
+</body>
+
+</html>
+
+DECLARATION---------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body >
+    <center>
+    <h2><U>RESUME</U></h2>
+    <h3><b>Basic Details</b></h3>
+    <table border="2" width="60%" height="90%">
+       <tr> <th>Hobbies</th>
+        <td>Talking,singing,swimming</td>
+    </tr>
+    <tr><th>Skills</th>
+    <td>programming</td></tr>
+    </table>
+    <h3><center>DECLARATION</center></h3>
+
+    <P>I solemnly declare that the information in this resume is true to the best of my knowledge and belief. All information in this resume is right and truthful. I announce that the information and details shared in this resume are correct and inclusive. I take full liability for the correctness of the information. </P>
+</center>
+</body>
+</html>

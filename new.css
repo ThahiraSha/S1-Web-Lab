@@ -1,0 +1,17 @@
+
+*{
+
+    background-color: beige;
+    border-width:1;
+    border-color: rgb(0, 0, 0);
+    border-collapse:collapse;
+}
+.c{
+color: rgb(255, 255, 255);
+background-color: rgb(57, 7, 7);
+width: 200px;
+height: 30px;
+}
+#head{
+    color: aqua;
+}

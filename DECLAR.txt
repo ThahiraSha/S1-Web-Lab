@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="new.css">
+</head>
+<body >
+    <center>
+    <h2><U>RESUME</U></h2>
+    <h3><b>Basic Details</b></h3>
+    <table border="2" width="60%" height="90%">
+       <tr> <th>Hobbies</th>
+        <td>Talking,singing,swimming</td>
+    </tr>
+    <tr><th>Skills</th>
+    <td>programming</td></tr>
+<tr><td><a href="quali.html"><-prev</a></td></tr>
+    </table>
+    <h3><center>DECLARATION</center></h3>
+
+    <P>I solemnly declare that the information in this resume is true to the best of my knowledge and belief. All information in this resume is right and truthful. I announce that the information and details shared in this resume are correct and inclusive. I take full liability for the correctness of the information. </P>
+</center>
+</body>
+</html>

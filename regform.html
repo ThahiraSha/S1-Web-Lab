@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form </title>
+</head>
+<body>
+    <center>
+    <table border="5">
+        <form>
+        <tr>
+            <th colspan="2"><u>REGISTRATION FORM</u></th>
+        </tr>
+        <tr>
+            <td>Name:</td>
+            <td><input type="text" name="name"></td>
+        </tr>
+        <tr>
+            <td>Age:</td>
+            <td>
+                <select>
+                    <option value="SELECT">SELECT</option>
+                    <option value="18-25">18-25</option>
+                    <option value="26-32">26-32</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Password:</td>
+            <td><input type="password" name="password"></td>
+        </tr>
+        <tr>
+            <td>Re-enter password:</td>
+            <td><input type="password" name="repassword"></td>
+        </tr>
+        <tr>
+            <td>Select your Security Questions </td>
+            
+            <td><input type="radio" name="q" value="petname">What is your pet name? <br>
+            <input type="radio" name="q" value="bestfriend">Who is your bestfriend?<br>
+            <input type="radio" name="q" value="colour">What is your favourite color?<br>
+            <input type="radio" name="q" value="teacher">Who is your favourite teachr?</td>
+            
+        </tr>
+        <tr>
+            <td>Answer of Security Questions</td>
+            <td><input type="text" name="ans"></td>
+        </tr>
+        <tr>
+            <td>Email ID</td>
+            <td><input type="email" name="email"></td>
+        </tr>
+        <tr>
+            <td>Language Known</td>
+            <td><input type="checkbox" name="Lan1" value="mal">Malayalam 
+            <input type="checkbox" name="Lan2" value="eng">English
+            <input type="checkbox" name="Lan3" value="hin">Hindi</td>
+        </tr>
+        <tr>
+            <td>Phone number:</td>
+            <td>
+                <table border="1">
+                    <tr>
+                        <td>Home</td>
+                        <td>Office</td>
+                    </tr>
+                    <tr>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                    </tr>
+                </table>
+            </td>
+        <tr>
+            <td>Upload CV</td>
+            <td><input type="file"></td>
+        </tr>
+        <tr>
+            <td align="center"><input type="button" name="reset" value="Reset"></td>
+            <td align="center"><input type="button" name="submit" value="Submit"></td>
+
+        </tr>
+    </form>
+    </table>
+</center>
+</body>
+</html>
