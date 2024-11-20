@@ -1,0 +1,56 @@
+.div1{
+    background-color: rgba(42, 165, 155, 0.152);
+    color:brown;
+}
+#img1{
+    position:absolute;
+    
+}
+
+img{
+    margin-left: 500px;
+}
+@keyframes dimming {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+#img2{
+    position:absolute;
+    opacity: 0;
+    animation: dimming 4s infinite;
+}
+.div2{
+    height: 300px;
+    /* text-align: center; */
+    background-color:pink;
+    color:brown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.div3{
+    display:flex ;
+    
+}
+.div4{
+    
+    flex:1;
+    font-style: italic;
+    font-size: medium;
+    color:brown;
+    background-color:violet;
+}
+
+.div5{
+    flex:1;
+    font-size: medium;
+    font-style:oblique;
+    color:brown;
+    background-color:skyblue;
+}
